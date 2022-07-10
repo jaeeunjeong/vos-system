@@ -18,7 +18,7 @@ public class VocCreateRequestDto {
 
     private String claimContent; // 간단한 귀책
 
-    private String penaltyContent; // 패널티 내용
+    private Long penaltyId; // 패널티 내용
 
     private String vocReason;
 
@@ -27,6 +27,6 @@ public class VocCreateRequestDto {
     private boolean appeal;
 
     public static Voc toEntity(VocCreateRequestDto req) {
-        return new Voc(req.getReasonType(), req.getUserId(), req.getClaimContent(), req.getPenaltyContent(), req.getVocReason(), false, false, 0L);
+        return new Voc(req.getReasonType(), req.getUserId(), req.getClaimContent(), req.getPenaltyId(), req.getVocReason(), false, false, 0L);
     }
 }

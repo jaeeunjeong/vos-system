@@ -24,13 +24,13 @@ public class Voc {
 
     private Long userId; //  귀책 당사자 고유 id
 
-    @Column(name = "claim_content", nullable = false, length = 30, unique = true)
+    @Column(name = "claim_content")
     private String claimContent; // 간단한 귀책
 
-    @Column(name = "penalty_content", nullable = false, length = 30, unique = true)
-    private String penaltyContent; // 패널티 내용
+    @Column(name = "penalty_Id")
+    private Long penaltyId; // 패널티 내용
 
-    @Column(name = "voc_reason",  nullable = false, length = 30, unique = true)
+    @Column(name = "voc_reason")
     private String vocReason;
 
     @Column(name = "driver_check")
@@ -41,11 +41,11 @@ public class Voc {
     @Column(name = "claim_detail_id")
     private Long claimDetailId; // 귀책 내용을 조회하기 위함.
 
-    public Voc(Member reasonType, Long userId, String claimContent, String penaltyContent, String vocReason, boolean driverCheck, boolean appeal, Long claimDetailId) {
+    public Voc(Member reasonType, Long userId, String claimContent, Long penaltyId, String vocReason, boolean driverCheck, boolean appeal, Long claimDetailId) {
         this.reasonType = reasonType;
         this.userId = userId;
         this.claimContent = claimContent;
-        this.penaltyContent = penaltyContent;
+        this.penaltyId = penaltyId;
         this.vocReason = vocReason;
         this.driverCheck = driverCheck;
         this.appeal = appeal;

@@ -61,10 +61,10 @@ public class VocRepositoryTest {
     }
 
     Voc createVOC() {
-        return new Voc(Member.DRIVER, 1L, "오배송", "오배송", "오배송", false, false, 1L);
+        return new Voc(Member.DRIVER, 1L, "오배송", 1L, "오배송", false, false, 1L);
     }
 
     Voc createVOCWithUserId(Long id) {
-        return new Voc(Member.DRIVER, id, "오배송", "오배송", "오배송", false, false, 1L);
+        return new Voc(Member.DRIVER, id, "오배송", 1L, "오배송", false, false, 1L);
     }
 }
