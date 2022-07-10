@@ -14,7 +14,7 @@ import java.util.List;
 public class VocListResponseDto {
     private Long userId;
     private String VocReason;
-    private String penaltyContent;
+    private Long penaltyId;
     private boolean driverCheck;
     private boolean appeal;
     private Long claimDetail;
@@ -25,7 +25,7 @@ public class VocListResponseDto {
             VocListResponseDto dto = new VocListResponseDto();
             dto.setUserId(voc.getUserId());
             dto.setVocReason(voc.getVocReason());
-            dto.setPenaltyContent(voc.getPenaltyContent());
+            dto.setPenaltyId(voc.getPenaltyId());
             dto.setDriverCheck(voc.isDriverCheck());
             dto.setAppeal(voc.isAppeal());
             dto.setClaimDetail(voc.getClaimDetailId());
