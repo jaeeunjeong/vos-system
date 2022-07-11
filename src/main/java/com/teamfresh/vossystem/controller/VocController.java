@@ -18,11 +18,11 @@ public class VocController {
 
     @GetMapping("/api/vocAll")
     public Response readVOCList() {
-        return Response.success(vocService.findAllVOCList());
+        return Response.success(vocService.findAllVocList());
     }
 
     @PostMapping("/api/voc") //
-    public Response addVOCList(VocCreateRequestDto req) {
+    public Response addVocList(VocCreateRequestDto req) {
         vocService.insertVOC(req);
         return Response.success();
     }

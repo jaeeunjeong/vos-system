@@ -25,10 +25,9 @@ public class VocListResponseDto {
             VocListResponseDto dto = new VocListResponseDto();
             dto.setUserId(voc.getUserId());
             dto.setVocReason(voc.getVocReason());
-            dto.setPenaltyId(voc.getPenaltyId());
             dto.setDriverCheck(voc.isDriverCheck());
             dto.setAppeal(voc.isAppeal());
-            dto.setClaimDetail(voc.getClaimDetailId());
+            result.add(dto);
         }
         return result;
     }

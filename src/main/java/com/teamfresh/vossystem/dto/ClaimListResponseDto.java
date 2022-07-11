@@ -22,6 +22,7 @@ public class ClaimListResponseDto {
             ClaimListResponseDto dto = new ClaimListResponseDto();
             dto.setVocId(claim.getVocId());
             dto.setPrice(claim.getPrice());
+            result.add(dto);
         }
         return result;
     }

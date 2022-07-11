@@ -35,8 +35,7 @@ public class ClaimController {
             // 배상 시스템 바로 적용
 
         } else if (dto.getReasonType() == Member.DRIVER) {
-            PenaltyDto penaltyRequestDto = new PenaltyDto(
-                    claim.getId(), dto.getUserId(), dto.getPenaltyPrice(), Member.DRIVER);
+            PenaltyDto penaltyRequestDto = new PenaltyDto(claim.getId(), dto.getUserId(), dto.getPenaltyPrice(), Member.DRIVER);
             penaltyService.insertPenalty(penaltyRequestDto);
         }
 

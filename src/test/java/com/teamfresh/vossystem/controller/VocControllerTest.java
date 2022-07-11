@@ -50,13 +50,13 @@ class VocControllerTest {
                 get("/api/vocAll"))
                 .andExpect(status().isOk());
 
-        verify(vocService).findAllVOCList();
+        verify(vocService).findAllVocList();
     }
 
     @Test
     void createVocTest() throws Exception {
         // given
-        VocCreateRequestDto req = new VocCreateRequestDto(1L, Member.DRIVER, 1L, "오배송", 1L, "오배송", false, false);
+        VocCreateRequestDto req = new VocCreateRequestDto(1L, Member.DRIVER, 1L, "오배송", false, false);
 
         // when, then
         mockMvc.perform(
@@ -69,6 +69,6 @@ class VocControllerTest {
     }
 
     Voc createVOCWithUserId(Long id) {
-        return new Voc(Member.DRIVER, id, "오배송", 1L, "오배송", false, false, 1L);
+        return new Voc(Member.DRIVER, id, "오배송", false, false);
     }
 }

@@ -16,7 +16,7 @@ public class VocService {
 
     private final VocRepository vocRepository;
 
-    public List<VocListResponseDto> findAllVOCList() {
+    public List<VocListResponseDto> findAllVocList() {
         List<Voc> vocList = vocRepository.findAll();
         return VocListResponseDto.toDtoList(vocList);
     }

@@ -20,12 +20,15 @@ public class Claim {
     @Column(name = "claim_id")
     private Long id;
 
+    @Column(name = "voc_id")
     private Long vocId;
 
+    @Column(name = "user_id")
     private Long userId;
 
     private Long price;
 
+    @Column(name = "reason_type")
     private Member reasonType;
 
     public Claim(Long vocId, Long userId, Long price, Member reasonType) {
