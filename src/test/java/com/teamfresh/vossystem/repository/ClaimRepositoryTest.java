@@ -28,7 +28,7 @@ public class ClaimRepositoryTest {
     @Test
     void test1() {
         // given
-        Claim claim = new Claim(1L, 1L, 1000L, Member.CUSTOMER);
+        Claim claim = new Claim(1L, 1L, 1000L, Member.COMPANY);
 
         // when
         Claim resultClaim = claimRepository.save(claim);
