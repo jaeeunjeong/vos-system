@@ -22,7 +22,7 @@ public class Penalty {
     @Column(name = "claim_id")
     private Long claimId;
 
-    @Column(name = "penaltyPrice")
+    @Column(name = "penalty_price")
     private Long penaltyPrice;
 
     @Column(name = "driver_check")
