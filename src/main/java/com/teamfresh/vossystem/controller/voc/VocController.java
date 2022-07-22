@@ -1,8 +1,8 @@
-package com.teamfresh.vossystem.controller;
+package com.teamfresh.vossystem.controller.voc;
 
-import com.teamfresh.vossystem.dto.VocCreateRequestDto;
+import com.teamfresh.vossystem.dto.voc.VocCreateRequestDto;
 import com.teamfresh.vossystem.dto.response.Response;
-import com.teamfresh.vossystem.service.VocService;
+import com.teamfresh.vossystem.service.voc.VocService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

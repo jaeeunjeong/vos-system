@@ -1,4 +1,4 @@
-package com.teamfresh.vossystem.entity;
+package com.teamfresh.vossystem.entity.penalty;
 
 import lombok.AccessLevel;
 import lombok.Getter;

@@ -1,7 +1,8 @@
-package com.teamfresh.vossystem.repository;
+package com.teamfresh.vossystem.repository.voc;
 
 import com.teamfresh.vossystem.Member;
-import com.teamfresh.vossystem.entity.Voc;
+import com.teamfresh.vossystem.entity.voc.Voc;
+import com.teamfresh.vossystem.repository.voc.VocRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

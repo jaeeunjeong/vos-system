@@ -1,10 +1,11 @@
-package com.teamfresh.vossystem.controller;
+package com.teamfresh.vossystem.controller.claim;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.teamfresh.vossystem.Member;
-import com.teamfresh.vossystem.dto.ClaimCreateRequestDto;
-import com.teamfresh.vossystem.entity.Claim;
-import com.teamfresh.vossystem.service.ClaimService;
+import com.teamfresh.vossystem.controller.claim.ClaimController;
+import com.teamfresh.vossystem.dto.claim.ClaimCreateRequestDto;
+import com.teamfresh.vossystem.entity.claim.Claim;
+import com.teamfresh.vossystem.service.claim.ClaimService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -1,6 +1,6 @@
-package com.teamfresh.vossystem.dto;
+package com.teamfresh.vossystem.dto.claim;
 
-import com.teamfresh.vossystem.entity.Claim;
+import com.teamfresh.vossystem.entity.claim.Claim;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

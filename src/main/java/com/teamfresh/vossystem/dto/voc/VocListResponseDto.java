@@ -1,6 +1,6 @@
-package com.teamfresh.vossystem.dto;
+package com.teamfresh.vossystem.dto.voc;
 
-import com.teamfresh.vossystem.entity.Voc;
+import com.teamfresh.vossystem.entity.voc.Voc;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

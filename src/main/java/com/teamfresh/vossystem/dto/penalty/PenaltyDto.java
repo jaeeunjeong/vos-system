@@ -1,4 +1,4 @@
-package com.teamfresh.vossystem.dto;
+package com.teamfresh.vossystem.dto.penalty;
 
 import com.teamfresh.vossystem.Member;
 import lombok.AllArgsConstructor;

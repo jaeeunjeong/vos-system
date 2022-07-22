@@ -1,6 +1,6 @@
-package com.teamfresh.vossystem.repository;
+package com.teamfresh.vossystem.repository.voc;
 
-import com.teamfresh.vossystem.entity.Voc;
+import com.teamfresh.vossystem.entity.voc.Voc;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

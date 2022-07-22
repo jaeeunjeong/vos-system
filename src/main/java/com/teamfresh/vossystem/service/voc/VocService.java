@@ -1,9 +1,9 @@
-package com.teamfresh.vossystem.service;
+package com.teamfresh.vossystem.service.voc;
 
-import com.teamfresh.vossystem.dto.VocCreateRequestDto;
-import com.teamfresh.vossystem.dto.VocListResponseDto;
-import com.teamfresh.vossystem.entity.Voc;
-import com.teamfresh.vossystem.repository.VocRepository;
+import com.teamfresh.vossystem.dto.voc.VocCreateRequestDto;
+import com.teamfresh.vossystem.dto.voc.VocListResponseDto;
+import com.teamfresh.vossystem.entity.voc.Voc;
+import com.teamfresh.vossystem.repository.voc.VocRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,12 +1,12 @@
-package com.teamfresh.vossystem.controller;
+package com.teamfresh.vossystem.controller.claim;
 
 import com.teamfresh.vossystem.Member;
-import com.teamfresh.vossystem.dto.ClaimCreateRequestDto;
-import com.teamfresh.vossystem.dto.PenaltyDto;
+import com.teamfresh.vossystem.dto.claim.ClaimCreateRequestDto;
+import com.teamfresh.vossystem.dto.penalty.PenaltyDto;
 import com.teamfresh.vossystem.dto.response.Response;
-import com.teamfresh.vossystem.entity.Claim;
-import com.teamfresh.vossystem.service.ClaimService;
-import com.teamfresh.vossystem.service.PenaltyService;
+import com.teamfresh.vossystem.entity.claim.Claim;
+import com.teamfresh.vossystem.service.claim.ClaimService;
+import com.teamfresh.vossystem.service.penalty.PenaltyService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

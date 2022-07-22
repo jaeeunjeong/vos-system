@@ -1,9 +1,9 @@
-package com.teamfresh.vossystem.service;
+package com.teamfresh.vossystem.service.claim;
 
-import com.teamfresh.vossystem.dto.ClaimCreateRequestDto;
-import com.teamfresh.vossystem.dto.ClaimListResponseDto;
-import com.teamfresh.vossystem.entity.Claim;
-import com.teamfresh.vossystem.repository.ClaimRepository;
+import com.teamfresh.vossystem.dto.claim.ClaimCreateRequestDto;
+import com.teamfresh.vossystem.dto.claim.ClaimListResponseDto;
+import com.teamfresh.vossystem.entity.claim.Claim;
+import com.teamfresh.vossystem.repository.claim.ClaimRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

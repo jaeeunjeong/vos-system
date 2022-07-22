@@ -1,4 +1,4 @@
-package com.teamfresh.vossystem.entity;
+package com.teamfresh.vossystem.entity.voc;
 
 import com.teamfresh.vossystem.Member;
 import lombok.AccessLevel;

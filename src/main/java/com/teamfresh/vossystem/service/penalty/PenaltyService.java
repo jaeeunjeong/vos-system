@@ -1,9 +1,9 @@
-package com.teamfresh.vossystem.service;
+package com.teamfresh.vossystem.service.penalty;
 
-import com.teamfresh.vossystem.dto.PenaltyDto;
-import com.teamfresh.vossystem.entity.Penalty;
+import com.teamfresh.vossystem.dto.penalty.PenaltyDto;
+import com.teamfresh.vossystem.entity.penalty.Penalty;
 import com.teamfresh.vossystem.exception.PenaltyNotFoundException;
-import com.teamfresh.vossystem.repository.PenaltyRepository;
+import com.teamfresh.vossystem.repository.penalty.PenaltyRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

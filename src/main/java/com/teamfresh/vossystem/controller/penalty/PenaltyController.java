@@ -1,6 +1,6 @@
-package com.teamfresh.vossystem.controller;
+package com.teamfresh.vossystem.controller.penalty;
 
-import com.teamfresh.vossystem.service.PenaltyService;
+import com.teamfresh.vossystem.service.penalty.PenaltyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
